@@ -1,0 +1,87 @@
+body {
+    background: url('../img/fondo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    background-color: #0e5101;
+}
+
+footer {
+    background-color: #0e5101;
+}
+
+#chartContainer {
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.file-upload input.file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.file-upload .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e5101;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file-upload .button:hover {
+    background-color: gray;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e5101;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: none;
+}
+
+
+/* HOST */
+img[alt*="000webhost"],
+img[alt*="000webhost"][style],
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body > div:nth-last-of-type(1)[style]{
+	opacity: 0 !important;
+	pointer-events:none !important;
+	width: 0px !important;
+	height: 0px !important;
+	visibility:hidden !important;
+	display:none !important;
+}
