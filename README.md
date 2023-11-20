@@ -33,7 +33,3 @@ Este es un sencillo graficador de datos CSV implementado con HTML y JavaScript. 
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias de mejora, por favor, abre un issue o envía un pull request.
-
-## Licencia
-
-Este proyecto está bajo la licencia [MIT](LICENSE).
